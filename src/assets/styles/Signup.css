@@ -1,0 +1,120 @@
+/* Signup form container */
+.signup-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 340px;
+  margin: 30px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Title */
+.signup-title {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form layout */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* Very tight spacing */
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.input-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+}
+/* body{
+  background-image: url("https://tse3.mm.bing.net/th/id/OIP.JHVIELS_XqLGXuK7zXBPrQHaFS?rs=1&pid=ImgDetMain")
+} */
+
+/* Make the signup page fill the entire screen */
+.signup-page {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/006/633/031/large_2x/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-vector.jpg'); /* or use the uploaded image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Remove default spacing from body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+.input-group input {
+  padding: 4px 6px;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.input-group input:focus {
+  border-color: #3f51b5;
+  box-shadow: 0 0 3px rgba(63, 81, 181, 0.4);
+}
+
+/* Error text */
+.error,
+.MuiTypography-root.MuiTypography-body2.MuiTypography-colorError {
+  color: red;
+  font-size: 11px;
+  margin-top: 1px;
+}
+
+/* Button */
+button[type="submit"],
+.MuiButton-root {
+  padding: 6px;
+  font-size: 13px;
+  margin-top: 6px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button[type="submit"]:hover,
+.MuiButton-root:hover {
+  transform: scale(1.03);
+  background-color: #303f9f;
+}
+
+/* Login link */
+.login-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333;
+}
+
+.login-link a {
+  color: rgb(163, 87, 87);
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,177 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff3e6; /* Soft peach background */
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* Product Card */
+.product-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  border: 1px solid #fce4d6;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.product-card img {
+  width: 100px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 12px;
+  background-color: #ffffff; /* White background for image */
+  padding: 10px;
+  border-radius: 12px;
+}
+
+/* Card Title */
+.product-card h4 {
+  font-size: 16px;
+  color: #2e2e2e;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Product Detail View */
+.product-detail {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  margin: 30px auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-detail h3 {
+  margin-top: 16px;
+  font-size: 24px;
+  color: #2d2d2d;
+}
+
+.product-detail p {
+  margin: 12px 0;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.product-detail img {
+  width: 160px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 20px auto;
+  background-color: #ffffff; /* White image background */
+  padding: 12px;
+  border-radius: 14px;
+}
+
+/* Buttons */
+button {
+  background-color: #ff7e67; /* Coral tone for buttons */
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #e15b4b;
+  transform: scale(1.03);
+}
+
+/* Cart Message */
+.cart-message {
+  color: #2ecc71;
+  margin-top: 14px;
+  font-weight: 600;
+  font-size: 16px;
+  animation: fadeInOut 3s ease forwards;
+  text-align: center;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Material UI Dialog */
+.MuiDialog-paper {
+  border-radius: 20px !important;
+  padding: 20px;
+}
+
+.MuiDialogTitle-root {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.MuiDialogContent-root {
+  font-size: 1rem;
+  color: #555;
+}
+
+.MuiDialogActions-root {
+  padding: 16px 24px;
+  justify-content: space-between;
+}
+
+/* Material UI Snackbar */
+.MuiSnackbar-root {
+  bottom: 30px !important;
+}
+
+/* Material UI Pagination */
+.MuiPagination-root {
+  margin-top: 30px;
+}
+
+.MuiPagination-ul {
+  justify-content: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+  }
+
+  .product-card img {
+    width: 80px;
+    height: 100px;
+  }
+}
+.product-detail-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
