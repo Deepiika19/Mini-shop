@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mini-shop/static/css/main.38095d87.css",
+    "main.css": "/Mini-shop/static/css/main.5e6cc2da.css",
     "main.js": "/Mini-shop/static/js/main.b2074b8e.js",
     "static/js/453.77599116.chunk.js": "/Mini-shop/static/js/453.77599116.chunk.js",
     "index.html": "/Mini-shop/index.html",
-    "main.38095d87.css.map": "/Mini-shop/static/css/main.38095d87.css.map",
+    "main.5e6cc2da.css.map": "/Mini-shop/static/css/main.5e6cc2da.css.map",
     "main.b2074b8e.js.map": "/Mini-shop/static/js/main.b2074b8e.js.map",
     "453.77599116.chunk.js.map": "/Mini-shop/static/js/453.77599116.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38095d87.css",
+    "static/css/main.5e6cc2da.css",
     "static/js/main.b2074b8e.js"
   ]
 }
